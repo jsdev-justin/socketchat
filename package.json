@@ -1,0 +1,22 @@
+{
+  "name": "socketchat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "greeting": "echo \"hello there dev-justin, work on that portfolio!\" && exit 0",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-jsdev_justin:jsdev-justin/socketchat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  }
+}

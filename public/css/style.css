@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    text-shadow:1px 1px 6px white;
+}
+
+.header{
+    background:darkgray;
+    padding:1em;
+}
+
+
+
+
+.flex{
+    display:flex;
+}
+
+.relative{
+    position:relative;
+}
+
+.text-center{
+    text-align:center;
+}
+
+h3{
+    letter-spacing:10px;
+}
+
+
+.column{
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.center{
+    align-items:center;
+    justify-content: center;
+}
+
+.white{
+    color:white;
+}
+
+.ls{
+    letter-spacing:4px;
+}
+
+.hero{
+    height:300px;
+    width:100%;
+    background:darkgray;
+}
+
+.card{
+    width:65%;
+    height:100%;
+    border:2px solid black;
+    padding:1em;
+    border-radius:5%;
+}
+
+.container{
+    width:95%;
+    margin:0 auto;
+}
+
+.darkgray{
+    background:darkgray;
+}
+
+.form-control{
+    flex:1;
+    text-align:center;
+}
+
+.form-input{
+    height:25px; 
+    width:125%;
+    padding:.75em;
+    margin:5px;
+    outline:none;
+}
+
+.top{
+    top:75px;
+}
+
+
+.btn{
+    margin-top:50px;
+    border:1px solid black;
+    background:transparent;
+    padding:1em;
+    width:125px;
+    border-radius:100px;
+    outline:none;
+}
+
+
+.grid{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    height:100%;
+}
+
+.form-div{
+    width:100%;
+}
+
+.cel{
+    border:1px solid black;
+    height:100%;
+    overflow:auto;
+}
+
+.add-message-row{
+    background:darkgray;
+    padding:1em;
+}
+
+h5{
+    padding:.5em;
+}
+
+li{
+    list-style:none;
+    margin-left:10px;
+    /* padding:.2em; */
+}
+
+.flex-start{
+    display:flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-direction:column;
+}
+
+.message-div{
+    background:rgb(31, 209, 135);
+    padding:.5em;
+    width:80%;
+    border-radius:100px;
+    margin:5px;
+}
+
+.flex-end{
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    align-items:flex-end;
+    background:rgb(59, 132, 240);
+    left:15%;
+    position:relative;
+}
+
+
